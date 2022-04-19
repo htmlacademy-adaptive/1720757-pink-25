@@ -1,3 +1,20 @@
-body {
-  background: #ffffff;
-}
+@import "./style-body.scss";
+@import "./fonts/fonts.scss";
+@import "./blocks/header-block.scss";
+@import "./main/platform-section.scss";
+@import "./main/sentence-section.scss";
+@import "./footer/footer.scss";
+
+// catalog
+
+@import "./main/block-main-header.scss";
+@import "./catalog/catalog-header-block.scss";
+@import "./catalog/block-photo.scss";
+@import "./catalog/block-gallery.scss";
+@import "./catalog/photo-filter.scss";
+
+// form
+
+@import "./form/form-main.scss";
+@import "./form/section-poll.scss";
+/*# sourceMappingURL=style.css.map */
