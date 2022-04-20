@@ -1,0 +1,22 @@
+.liked {
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 18px;
+  }
+
+  p {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+    color: #d22856;
+  }
+}

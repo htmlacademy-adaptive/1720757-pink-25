@@ -1,0 +1,23 @@
+.form-poll {
+  .form-poll__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #d22856;
+  }
+
+  .form-poll__input-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #283645;
+  }
+}

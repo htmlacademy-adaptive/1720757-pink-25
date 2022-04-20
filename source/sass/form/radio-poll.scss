@@ -1,0 +1,18 @@
+.radio-poll {
+  display: flex;
+
+  .radio-poll__radio {
+    margin-right: 31px;
+  }
+
+  .radio-poll__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #283645;
+  }
+}

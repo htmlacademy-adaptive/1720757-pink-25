@@ -1,20 +1,40 @@
-@import "./style-body.scss";
-@import "./fonts/fonts.scss";
-@import "./blocks/header-block.scss";
-@import "./main/platform-section.scss";
-@import "./main/sentence-section.scss";
-@import "./footer/footer.scss";
-
-// catalog
-
-@import "./main/block-main-header.scss";
-@import "./catalog/catalog-header-block.scss";
-@import "./catalog/block-photo.scss";
-@import "./catalog/block-gallery.scss";
-@import "./catalog/photo-filter.scss";
-
-// form
-
-@import "./form/form-main.scss";
-@import "./form/section-poll.scss";
+@import "../sass/variable.scss";
+@import "../sass/style-body.scss";
+@import "../sass/blocks/block-title.scss";
+@import "../sass/blocks/header-block.scss";
+@import "../sass/blocks/main-header.scss";
+@import "../sass/catalog/block-comment.scss";
+@import "../sass/catalog/block-photo.scss";
+@import "../sass/catalog/catalog-header-block.scss";
+@import "../sass/catalog/catalog-main.scss";
+@import "../sass/catalog/day-block.scss";
+@import "../sass/catalog/filter-block.scss";
+@import "../sass/catalog/form-text.scss";
+@import "../sass/catalog/liked.scss";
+@import "../sass/catalog/photo-filter.scss";
+@import "../sass/fonts/fonts.scss";
+@import "../sass/footer/block-developer.scss";
+@import "../sass/footer/block-icon.scss";
+@import "../sass/footer/footer.scss";
+@import "../sass/form/block-description-poll.scss";
+@import "../sass/form/block-form.scss";
+@import "../sass/form/block-radio-poll.scss";
+@import "../sass/form/block-sending.scss";
+@import "../sass/form/checkbox-form.scss";
+@import "../sass/form/checkbox-poll.scss";
+@import "../sass/form/fieldset-form-poll.scss";
+@import "../sass/form/form-main.scss";
+@import "../sass/form/form-poll.scss";
+@import "../sass/form/radio-poll.scss";
+@import "../sass/main/block-color-filter.scss";
+@import "../sass/main/block-filter.scss";
+@import "../sass/main/block-main-header.scss";
+@import "../sass/main/block-prices.scss";
+@import "../sass/main/feedback-section.scss";
+@import "../sass/main/item.scss";
+@import "../sass/main/platform-block.scss";
+@import "../sass/main/platform-section.scss";
+@import "../sass/main/sentence-block.scss";
+@import "../sass/main/sentence-reviews.scss";
+@import "../sass/main/sentence-section.scss";
 /*# sourceMappingURL=style.css.map */

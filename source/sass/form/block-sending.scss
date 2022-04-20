@@ -1,0 +1,37 @@
+.block-sending__submit-button {
+  width: 276px;
+  height: 59px;
+  background: #2aab6d;
+  border: 2px solid #2aab6d;
+  border-radius: 1px;
+  margin-bottom: 46px;
+
+  span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    }
+  }
+
+.block-sending__text {
+  margin: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #283645;
+
+  span {
+    color: #d22856;
+  }
+}
