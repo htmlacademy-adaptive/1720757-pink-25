@@ -2,22 +2,22 @@
   min-width: 280px;
   min-height: 192px;
   padding: 25px 10px 26px 17px;
-  background-color: #f2f2f2;
+  background-color: $section-item-color;
 }
 
 .block-comment__name {
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #283645;
+  color: $avtor-neme-color;
   display: flex;
   align-items: center;
   text-align: center;
 
   span {
-    font-family: 'Open Sans';
+    font-family: $font-name;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -27,11 +27,11 @@
 
 .block-comment__text {
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #283645;
+  color: $avtor-text-color;
   margin-bottom: 23px;
 }

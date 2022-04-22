@@ -1,36 +1,36 @@
 .feedback-section {
-  background-color: #ffffff;
+  background-color: $white;
   text-align: center;
   padding: 50px 40px 74px;
 }
 
 
 .feedback-section__title {
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 120%;
-  color: #283645;
+  color: $avtor-text-color;
   margin-bottom: 45px;
 }
 
 .feedback-section__group {
   b {
-    font-family: 'Open Sans';
+    font-family: $font-name;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    color: #283645;
+    color: $avtor-text-color;
   }
 
   p {
-    font-family: 'Open Sans';
+    font-family: $font-name;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 33px;
-    color: #d22856;
+    color: $bright-text-color;
   }
 }

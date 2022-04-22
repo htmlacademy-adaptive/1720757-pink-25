@@ -4,7 +4,7 @@
 }
 
 .fieldset-form-poll__title {
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #283645;
+  color: $photo-subtitle;
   margin-bottom: 55px;
 }
 

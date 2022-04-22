@@ -2,7 +2,7 @@
   padding: 42px 22px 26px;
 
   h3 {
-    font-family: 'Open Sans';
+    font-family: $font-name;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -11,19 +11,19 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: #d22856;
+    color: $bright-text-color;
     margin-bottom: 22px;
   }
 }
 
 .block-description-poll__description {
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   display: flex;
   align-items: center;
-  color: #283645;
+  color: $avtor-text-color;
   margin-bottom: 52px;
-  }
+}

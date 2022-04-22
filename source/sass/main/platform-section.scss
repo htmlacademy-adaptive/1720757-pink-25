@@ -1,5 +1,5 @@
 .platform-section {
-  background-color: #1d2631;
+  background-color: $header-bgColor;
   padding: 28px 20px 38px;
 }
 
@@ -9,7 +9,7 @@
 
 .platform-section__text {
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -17,5 +17,5 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: $white;
 }

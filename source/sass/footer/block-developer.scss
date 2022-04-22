@@ -2,12 +2,12 @@
   display: flex;
 
   p {
-    font-family: 'Open Sans';
+    font-family: $font-name;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #283645;
+    color: $photo-subtitle;
     margin: 0 15px 0 0;
     display: flex;
     justify-content: center;

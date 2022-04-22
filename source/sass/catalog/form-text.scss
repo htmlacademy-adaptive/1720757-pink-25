@@ -1,11 +1,11 @@
 .form-text {
   height: 36px;
   width: 140px;
-  background-color: #d22856;
+  background-color: $form-color;
 }
 
 .form-text__text {
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;

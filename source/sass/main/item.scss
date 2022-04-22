@@ -1,17 +1,17 @@
 .item__title {
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #000000;
+  color: $title-color;
 }
 
 .item__text {
-  font-family: 'Open Sans';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #283645;
+  color: $avtor-text-color;
 }
