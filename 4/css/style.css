@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* цвета */
+/* шрифты */
 h1,
 h2,
 h3,
@@ -12,7 +15,7 @@ body {
   width: 320px;
   margin: 0 auto;
   font-size: 16px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 ul,
@@ -22,18 +25,170 @@ li {
   padding: 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
+fieldset {
+  border: 0 none;
   padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  margin: 0;
+}
+
+.block-title h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+  text-align: center;
+  padding: 29px 20px 34px;
+}
+
+.header-block {
+  background-image: url("../img/mobile/mobile-background/back-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 462px;
+  position: relative;
+}
+
+.header-block__image1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header-block__image2 {
+  position: absolute;
+  left: 104px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.block-comment {
+  min-width: 280px;
+  min-height: 192px;
+  padding: 25px 10px 26px 17px;
+  background-color: #f2f2f2;
+}
+
+.block-comment__name {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.block-comment__name span {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.block-comment__text {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+  margin-bottom: 23px;
+}
+
+.block-photo {
+  padding: 54px 20px;
+}
+
+.block-photo__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+}
+
+.catalog-header-block {
+  background-image: url("../img/mobile/catalog-img/back-mobile.jpg");
+}
+
+.catalog-main {
+  background-color: #ffffff;
+}
+
+.filter-block {
+  background-color: #f2f2f2;
+  padding: 20px 20px 41px;
+}
+
+.filter-block__flex-filter {
+  display: flex;
+}
+
+.form-text {
+  height: 36px;
+  width: 140px;
+  background-color: #d22856;
+}
+
+.form-text__text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.liked {
+  display: flex;
+  align-items: center;
+}
+.liked svg {
+  margin-right: 18px;
+}
+.liked p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #d22856;
+}
+
+.photo-filter {
+  padding: 49px 20px 41px;
+}
+
+.photo-filter__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #283645;
 }
 
 @font-face {
@@ -57,239 +212,20 @@ li {
   src: url("../fonts/opensansbold.woff2") format("woff2");
   font-display: swap;
 }
-.header-block {
-  background-image: url("../img/mobile/mobile-background/back-mobile.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 462px;
-  position: relative;
+.block-developer {
+  display: flex;
 }
-
-.main-header {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.block-title h2 {
-  font-family: "Open Sans";
+.block-developer p {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 120%;
-  color: #ffffff;
-  text-align: center;
-  padding: 29px 20px 34px;
-}
-
-.header-block__image1 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.header-block__image2 {
-  position: absolute;
-  left: 104px;
-  bottom: 50px;
-  z-index: 1;
-}
-
-.platform-section {
-  background-color: #1d2631;
-  padding: 28px 20px 38px;
-}
-
-.platform-section__download {
-  margin-bottom: 38px;
-}
-
-.platform-block {
-  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #283645;
+  margin: 0 15px 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.platform-block__icon {
-  margin-right: 35px;
-  margin-bottom: 28px;
-}
-
-.platform-section__text {
-  margin: 0;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-}
-
-.sentence-block {
-  background-color: #ffffff;
-  padding: 46px 20px 70px;
-}
-
-.sentence-block__title {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 120%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #283645;
-}
-
-.sentence-section__item {
-  margin: 0;
-  background-color: #f2f2f2;
-  padding: 53px 20px 48px;
-  text-align: center;
-}
-
-.item__title {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000000;
-}
-
-.item__text {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #283645;
-}
-
-.sentence-reviews {
-  padding: 50px 20px 60px;
-  text-align: center;
-}
-.sentence-reviews b {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 30px;
-  color: #000000;
-}
-.sentence-reviews p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-.block-color-filter {
-  background-color: #f2f2f2;
-}
-
-.block-filter__header {
-  background: #283645;
-  padding: 17px 95px 35px 15px;
-  border: 2px solid #283645;
-  border-radius: 1px 0 0 0;
-  display: flex;
-}
-
-.tilted {
-  background: #d22856;
-  transform: rotate(-45deg);
-}
-.tilted p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  color: #ffffff;
-}
-
-.block-prices {
-  margin-left: 56px;
-  text-align: center;
-}
-.block-prices b {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.block-prices p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.block-filter__column p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #283645;
-  margin: 0;
-  background-color: #ffffff;
-}
-
-.feedback-section {
-  background-color: #ffffff;
-  text-align: center;
-  padding: 50px 40px 74px;
-}
-
-.feedback-section__title {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 120%;
-  color: #283645;
-  margin-bottom: 45px;
-}
-
-.feedback-section__group b {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  color: #283645;
-}
-.feedback-section__group p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  color: #d22856;
-}
-
-.footer {
-  text-align: center;
-  padding: 40px 70px 40px;
-}
-
-.footer__logo-block svg {
-  margin-right: 12px;
-  margin-bottom: 38px;
 }
 
 .block-icon {
@@ -302,200 +238,35 @@ li {
   margin-right: 46px;
 }
 
-.block-developer {
-  display: flex;
+.footer {
+  text-align: center;
+  padding: 40px 70px 40px;
 }
-.block-developer p {
-  font-family: "Open Sans";
+
+.footer__logo-block svg {
+  margin-right: 12px;
+  margin-bottom: 38px;
+}
+
+.block-description-poll {
+  padding: 42px 22px 26px;
+}
+.block-description-poll h3 {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #283645;
-  margin: 0 15px 0 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.block-main-header {
-  padding: 36px 46px 51px;
-}
-
-.catalog-header-block {
-  background-image: url("../img/mobile/catalog-img/back-mobile.jpg");
-}
-
-.block-main-header__title {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.block-photo {
-  padding: 54px 20px;
-}
-
-.block-photo__title {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  color: #283645;
-}
-
-.day-block {
-  position: relative;
-}
-
-.form-text {
-  height: 36px;
-  width: 140px;
-  background-color: #d22856;
-}
-
-.form-text__text {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-  margin: 0;
-}
-
-.block-comment {
-  min-width: 280px;
-  min-height: 192px;
-  padding: 25px 10px 26px 17px;
-  background-color: #f2f2f2;
-}
-
-.block-comment__name {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: #283645;
   display: flex;
   align-items: center;
   text-align: center;
-}
-.block-comment__name span {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 24px;
-}
-
-.block-comment__text {
-  margin: 0;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #283645;
-  margin-bottom: 23px;
-}
-
-.liked {
-  display: flex;
-  align-items: center;
-}
-.liked svg {
-  margin-right: 18px;
-}
-.liked p {
-  margin: 0;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: right;
   text-transform: uppercase;
   color: #d22856;
+  margin-bottom: 22px;
 }
 
-.photo-filter {
-  padding: 49px 20px 41px;
-}
-
-.photo-filter__subtitle {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #283645;
-}
-
-.filter-block {
-  background-color: #f2f2f2;
-  padding: 20px 20px 41px;
-}
-
-.flex-filter {
-  display: flex;
-}
-
-.form-main {
-  background-color: #ffffff;
-}
-
-fieldset {
-  border: 0 none;
-  padding: 0;
-  margin: 0;
-}
-
-.fieldset-form-poll {
-  background-color: #ffffff;
-  padding: 54px 20px 44px;
-}
-
-.fieldset-form-poll__title {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #283645;
-  margin-bottom: 55px;
-}
-
-.form-poll .form-poll__title {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  color: #d22856;
-}
-.form-poll .form-poll__input-text {
-  font-family: "Open Sans";
+.block-description-poll__description {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -503,6 +274,65 @@ fieldset {
   display: flex;
   align-items: center;
   color: #283645;
+  margin-bottom: 52px;
+}
+
+.block-form {
+  padding: 42px 22px 44px 22px;
+}
+
+.block-radio-poll {
+  background-color: #f2f2f2;
+  padding: 42px 71px 42px 22px;
+}
+.block-radio-poll h3 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d22856;
+  margin-bottom: 40px;
+}
+
+.block-sending__submit-button {
+  width: 276px;
+  height: 59px;
+  background: #2aab6d;
+  border: 2px solid #2aab6d;
+  border-radius: 1px;
+  margin-bottom: 46px;
+}
+.block-sending__submit-button span {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.block-sending__text {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #283645;
+}
+.block-sending__text span {
+  color: #d22856;
 }
 
 .checkbox-form {
@@ -510,7 +340,7 @@ fieldset {
   background-color: #f2f2f2;
 }
 .checkbox-form h3 {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -530,7 +360,7 @@ fieldset {
   margin-right: 22px;
 }
 .checkbox-poll .checkbox-poll__text {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -540,26 +370,47 @@ fieldset {
   color: #283645;
 }
 
-.block-form {
-  padding: 42px 22px 44px 22px;
+.fieldset-form-poll {
+  background-color: #ffffff;
+  padding: 54px 20px 44px;
 }
 
-.block-radio-poll {
-  background-color: #f2f2f2;
-  padding: 42px 71px 42px 22px;
-}
-.block-radio-poll h3 {
-  font-family: "Open Sans";
+.fieldset-form-poll__title {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
-  text-transform: uppercase;
+  color: #283645;
+  margin-bottom: 55px;
+}
+
+.form-main {
+  background-color: #ffffff;
+}
+
+.form-poll .form-poll__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
   color: #d22856;
-  margin-bottom: 40px;
+}
+.form-poll .form-poll__input-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #283645;
 }
 
 .radio-poll {
@@ -569,7 +420,7 @@ fieldset {
   margin-right: 31px;
 }
 .radio-poll .radio-poll__text {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -579,68 +430,207 @@ fieldset {
   color: #283645;
 }
 
-.block-description-poll {
-  padding: 42px 22px 26px;
+.block-color-filter {
+  background-color: #f2f2f2;
 }
-.block-description-poll h3 {
-  font-family: "Open Sans";
+
+.block-filter__header {
+  background: #283645;
+  padding: 17px 95px 35px 15px;
+  border: 2px solid #283645;
+  border-radius: 1px 0 0 0;
+  display: flex;
+}
+
+.block-filter__column p {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #d22856;
-  margin-bottom: 22px;
-}
-
-.block-description-poll__description {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
+  text-transform: uppercase;
   color: #283645;
-  margin-bottom: 52px;
+  margin: 0;
+  background-color: #ffffff;
 }
 
-.block-sending__submit-button {
-  width: 276px;
-  height: 59px;
-  background: #2aab6d;
-  border: 2px solid #2aab6d;
-  border-radius: 1px;
-  margin-bottom: 46px;
+.block-main-header {
+  padding: 36px 46px 51px;
 }
-.block-sending__submit-button span {
-  font-family: "Open Sans";
+
+.block-main-header__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.block-prices {
+  margin-left: 56px;
+  text-align: center;
+}
+.block-prices b {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.block-prices p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
 
-.block-sending__text {
+.feedback-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 40px 74px;
+}
+
+.feedback-section__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  color: #283645;
+  margin-bottom: 45px;
+}
+
+.feedback-section__group b {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #283645;
+}
+.feedback-section__group p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #d22856;
+}
+
+.item__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.item__text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+
+.platform-block {
   margin: 0;
-  font-family: "Open Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.platform-block__icon {
+  margin-right: 35px;
+  margin-bottom: 28px;
+}
+
+.platform-section {
+  background-color: #1d2631;
+  padding: 28px 20px 38px;
+}
+
+.platform-section__download {
+  margin-bottom: 38px;
+}
+
+.platform-section__text {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sentence-block {
+  background-color: #d22856;
+  padding: 46px 20px 70px;
+}
+
+.sentence-block__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+}
+
+.sentence-reviews {
+  padding: 50px 20px 60px;
+  text-align: center;
+}
+.sentence-reviews b {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.sentence-reviews p {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  color: #283645;
 }
-.block-sending__text span {
-  color: #d22856;
+
+.sentence-section__item {
+  margin: 0;
+  background-color: #f2f2f2;
+  padding: 53px 20px 48px;
+  text-align: center;
+}
+
+.tilted {
+  background: #d22856;
+  transform: rotate(-45deg);
+}
+.tilted p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
