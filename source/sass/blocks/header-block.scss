@@ -1,0 +1,20 @@
+.header-block {
+  background-image: url("../img/mobile/mobile-background/back-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 462px;
+  position: relative;
+}
+
+.header-block__image1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header-block__image2 {
+  position: absolute;
+  left: 104px;
+  bottom: 50px;
+  z-index: 1;
+}

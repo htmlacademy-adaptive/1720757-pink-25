@@ -1,0 +1,15 @@
+.photo-filter {
+  padding: 49px 20px 41px;
+}
+
+.photo-filter__subtitle {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $photo-subtitle;
+}

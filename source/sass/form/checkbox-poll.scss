@@ -1,0 +1,18 @@
+.checkbox-poll {
+  display: flex;
+
+  .checkbox-poll__checkbox {
+    margin-right: 22px;
+  }
+
+  .checkbox-poll__text {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: $avtor-text-color;
+  }
+}

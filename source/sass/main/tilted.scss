@@ -1,0 +1,14 @@
+.tilted {
+  background: $form-color;
+  transform: rotate(-45deg);
+
+  p {
+    margin: 0;
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: $white;
+  }
+}

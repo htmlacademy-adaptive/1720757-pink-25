@@ -1,0 +1,36 @@
+.feedback-section {
+  background-color: $white;
+  text-align: center;
+  padding: 50px 40px 74px;
+}
+
+
+.feedback-section__title {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  color: $avtor-text-color;
+  margin-bottom: 45px;
+}
+
+.feedback-section__group {
+  b {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: $avtor-text-color;
+  }
+
+  p {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: $bright-text-color;
+  }
+}

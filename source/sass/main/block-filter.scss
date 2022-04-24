@@ -1,0 +1,21 @@
+.block-filter__header {
+  background: $filterbg;
+  padding: 17px 95px 35px 15px;
+  border: 2px solid $filterbg;
+  border-radius: 1px 0 0 0;
+  display: flex;
+}
+
+.block-filter__column {
+  p {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #283645;
+    margin: 0;
+    background-color: #ffffff;
+  }
+}

@@ -1,0 +1,18 @@
+.fieldset-form-poll {
+  background-color: #ffffff;
+  padding: 54px 20px 44px;
+}
+
+.fieldset-form-poll__title {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $photo-subtitle;
+  margin-bottom: 55px;
+}
+

@@ -1,0 +1,21 @@
+.platform-section {
+  background-color: $header-bgColor;
+  padding: 28px 20px 38px;
+}
+
+.platform-section__download {
+  margin-bottom: 38px;
+}
+
+.platform-section__text {
+  margin: 0;
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $white;
+}

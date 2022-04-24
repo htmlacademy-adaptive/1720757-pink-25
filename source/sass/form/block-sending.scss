@@ -1,0 +1,37 @@
+.block-sending__submit-button {
+  width: 276px;
+  height: 59px;
+  background: $btn-color;
+  border: 2px solid $btn-color;
+  border-radius: 1px;
+  margin-bottom: 46px;
+
+  span {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+  }
+}
+
+.block-sending__text {
+  margin: 0;
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: $avtor-text-color;
+
+  span {
+    color: $bright-text-color;
+  }
+}

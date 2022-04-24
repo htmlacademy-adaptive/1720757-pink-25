@@ -1,0 +1,29 @@
+.block-description-poll {
+  padding: 42px 22px 26px;
+
+  h3 {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: $bright-text-color;
+    margin-bottom: 22px;
+  }
+}
+
+.block-description-poll__description {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: $avtor-text-color;
+  margin-bottom: 52px;
+}

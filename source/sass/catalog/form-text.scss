@@ -1,0 +1,19 @@
+.form-text {
+  height: 36px;
+  width: 140px;
+  background-color: $form-color;
+}
+
+.form-text__text {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
