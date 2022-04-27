@@ -1,5 +1,5 @@
 .block-prices {
-  margin-left: 56px;
+  margin-left: 95px;
   text-align: center;
 
   b {
@@ -10,6 +10,7 @@
     line-height: 30px;
     text-transform: uppercase;
     color: $white;
+    margin-bottom: 15px;
   }
 
   p {
@@ -20,5 +21,35 @@
     line-height: 30px;
     text-transform: uppercase;
     color: $white;
+    margin: 0;
+  }
+}
+
+@media (min-width: $tablet-version) {
+  .block-prices {
+    margin-left: 44px;
+    padding: 0;
+
+    b {
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: $white;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: $white;
+      margin: 0;
+    }
   }
 }

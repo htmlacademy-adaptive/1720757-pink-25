@@ -1,0 +1,33 @@
+.page {
+  min-width: $mobile-version;
+}
+
+.page__container {
+  margin: 0 auto;
+  width: 320px;
+  padding: 0 20px;
+}
+
+@media (min-width: $tablet-version) {
+  .page {
+    min-width: $tablet-version;
+  }
+
+  .page__container {
+    margin: 0 auto;
+    width: $tablet-version;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .page {
+    min-width: $decopant-version;
+  }
+
+  .page__container {
+    margin: 0 auto;
+    width: 1140px;
+    padding: 0 20px;
+  }
+}

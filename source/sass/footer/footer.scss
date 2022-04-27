@@ -9,3 +9,24 @@
     margin-bottom: 38px;
   }
 }
+
+@media (min-width: $tablet-version) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 20px 51px;
+
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .footer__logo-block {
+    svg {
+      margin: 0;
+    }
+  }
+}

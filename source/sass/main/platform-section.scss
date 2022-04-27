@@ -1,10 +1,27 @@
 .platform-section {
+  text-align: center;
   background-color: $header-bgColor;
-  padding: 28px 20px 38px;
+  padding: 28px 20px;
 }
 
 .platform-section__download {
   margin-bottom: 38px;
+  width: 280px;
+  height: 55px;
+  border: 3px solid $white;
+  box-sizing: border-box;
+  border-radius: 29px;
+  background-color: $transparent;
+  cursor: pointer;
+
+  span {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: $white;
+  }
 }
 
 .platform-section__text {
@@ -14,8 +31,22 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: $white;
+}
+
+@media (min-width: $tablet-version) {
+  .platform-section {
+    background-color: $transparent;
+  }
+
+  .platform-section__text {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: $white;
+    box-sizing: border-box;
+    width: 300px;
+  }
 }

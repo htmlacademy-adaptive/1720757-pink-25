@@ -1,0 +1,9 @@
+.block-timer {
+  display: none;
+}
+
+@media (min-width: $tablet-version) {
+  .block-timer {
+    display: initial;
+  }
+}

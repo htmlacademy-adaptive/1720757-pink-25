@@ -8,18 +8,17 @@ h6 {
 }
 
 body {
-  background: $white;
-  width: 320px;
-  margin: 0 auto;
   font-size: 16px;
   font-family: $font-name;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul,
 li {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 fieldset {

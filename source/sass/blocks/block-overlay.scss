@@ -1,0 +1,18 @@
+.block-overlay {
+  position: relative;
+  box-sizing: border-box;
+  height: 286px;
+}
+
+.block-overlay__image1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.block-overlay__image2 {
+  position: absolute;
+  left: 105px;
+  bottom: 50px;
+  z-index: 1;
+}
