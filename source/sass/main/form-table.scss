@@ -1,0 +1,15 @@
+.form-table {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+@media (min-width: $tablet-version) {
+  .form-table {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 616px;
+  }
+}

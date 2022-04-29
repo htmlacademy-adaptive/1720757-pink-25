@@ -1,0 +1,25 @@
+.table-block {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  .block-filter:nth-child(1) {
+    display: none;
+  }
+
+  .block-filter:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-version) {
+  .table-block {
+    .block-filter:nth-child(1) {
+      display: initial;
+    }
+
+    .block-filter:nth-child(3) {
+      display: initial;
+    }
+  }
+}

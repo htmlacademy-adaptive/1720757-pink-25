@@ -1,17 +1,18 @@
 .block-filter {
-  background-color: $text-color;
-  display: grid;
-  grid-template-columns: 276px;
-  grid-template-rows: 94px 59px 59px 59px;
+  box-sizing: border-box;
+  min-width: 276px;
+}
+
+.block-filter-text {
+  height: 59px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 2px solid  $section-item-color;
+  padding: 19px 17px 20px;
 
   p {
     margin: 0;
-    font-family: $font-name;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    color: $avtor-text-color;
   }
 }
 
@@ -43,14 +44,6 @@
 }
 
 @media (min-width: $tablet-version) {
-  .block-filter {
-    background-color: $white;
-    display: grid;
-    grid-template-columns: 153px 153px 153px 153px;
-    grid-template-rows: 75px 45px 45px 45px;
-    grid-row-gap: 2px;
-  }
-
   .block-filter__header:nth-child(1) {
     background: $filterbg;
     padding: 0;
@@ -87,48 +80,5 @@
       line-height: 30px;
       color: $white;
     }
-  }
-
-  .block-filter__text-pink {
-    margin: 0;
-    font-family: $font-name;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    color: $avtor-text-color;
-    grid-row-start: 2;
-  }
-
-  .block-filter__text-emoticons {
-    margin: 0;
-    font-family: $font-name;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    color: $avtor-text-color;
-    grid-row-start: 3;
-  }
-
-  .block-filter__text-comments {
-    margin: 0;
-    font-family: $font-name;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    color: $avtor-text-color;
-    grid-row-start: 4;
-  }
-}
-
-@media (min-width: $decopant-version) {
-  .block-filter {
-    background-color: $white;
-    display: grid;
-    grid-template-columns: 234px 234px 234px 234px;
-    grid-template-rows: 94px 59px 59px 59px;
-    grid-row-gap: 2px;
   }
 }
