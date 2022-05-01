@@ -3,10 +3,41 @@
   background-color: $section-item-color;
   padding: 53px 20px 48px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+
+  div {
+    order: 2;
+  }
+
+  .item {
+    order: 1;
+  }
 }
 
 @media (min-width: $tablet-version) {
   .sentence-section__item {
     display: flex;
+
+    div {
+      order: 0;
+    }
+
+    .item {
+      order: 0;
+    }
+  }
+
+  ul,
+  li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .sentence-section__item {
+    display: block;
   }
 }

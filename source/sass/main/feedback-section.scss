@@ -101,28 +101,17 @@
     font-weight: 300;
     font-size: 50px;
     line-height: 68px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin: 0 auto 61px;
+    max-width: 462px;
     color: $avtor-text-color;
   }
 
   .feedback-section__wrapper {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    justify-content: center;
 
     :nth-child(3n) {
       margin: 0;
-      order: 1;
-    }
-
-    :nth-child(2n) {
-      margin: 0;
-      order: 2;
     }
   }
 
@@ -134,10 +123,11 @@
       font-size: 18px;
       line-height: 25px;
       color: $avtor-text-color;
+      margin-bottom: 34px;
     }
 
     p {
-      margin: 17px 0 0;
+      margin-left: 110px;
       font-family: $font-name;
       font-style: normal;
       font-weight: 300;

@@ -7,6 +7,7 @@
 @import "blocks/header-block.scss";
 @import "blocks/main-header.scss";
 @import "blocks/block-overlay.scss";
+@import "blocks/img-phone-block";
 @import "catalog/block-comment.scss";
 @import "catalog/block-photo.scss";
 @import "catalog/catalog-header-block.scss";
@@ -44,4 +45,6 @@
 @import "main/table-block.scss";
 @import "main/form-table.scss";
 @import "main/colum-filter.scss";
+@import "main/item-block.scss";
+@import "main/comment-block";
 @import "blocks/header-container-content.scss";

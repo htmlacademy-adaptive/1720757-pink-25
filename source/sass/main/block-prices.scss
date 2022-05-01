@@ -4,7 +4,6 @@
   text-align: center;
   background: $filterbg;
   border: 2px solid $section-item-color;
-  padding-top: 19px;
   position: relative;
 
   b {
@@ -34,4 +33,15 @@
   background-color: $form-color;
   position: absolute;
   transform: rotate(-45deg);
+}
+
+@media (min-width: $tablet-version) {
+  .block-prices {
+    height: 75px;
+    box-sizing: border-box;
+    text-align: center;
+    background: $filterbg;
+    border: 2px solid $section-item-color;
+    position: relative;
+  }
 }
