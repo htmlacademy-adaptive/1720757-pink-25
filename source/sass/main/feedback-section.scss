@@ -26,6 +26,7 @@
   }
 
   p {
+    margin: 13px 0 31px;
     font-family: $font-name;
     font-style: normal;
     font-weight: 300;
@@ -34,3 +35,106 @@
     color: $bright-text-color;
   }
 }
+
+@media (min-width: $tablet-version) {
+  .feedback-section {
+    background-color: $white;
+    text-align: center;
+    padding: 50px 40px 74px;
+  }
+
+  .feedback-section__title {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $avtor-text-color;
+  }
+
+  .feedback-section__wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content;
+
+    :nth-child(3n) {
+      margin-top: 55px;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+
+  .feedback-section__group {
+    b {
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: $avtor-text-color;
+    }
+
+    p {
+      margin: 17px 0 0;
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 33px;
+      color: $bright-text-color;
+    }
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .feedback-section {
+    background-color: $white;
+    text-align: center;
+  }
+
+  .feedback-section__title {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 68px;
+    margin: 0 auto 61px;
+    max-width: 462px;
+    color: $avtor-text-color;
+  }
+
+  .feedback-section__wrapper {
+    display: flex;
+    justify-content: center;
+
+    :nth-child(3n) {
+      margin: 0;
+    }
+  }
+
+  .feedback-section__group {
+    b {
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: $avtor-text-color;
+      margin-bottom: 34px;
+    }
+
+    p {
+      margin-left: 110px;
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 33px;
+      color: $bright-text-color;
+    }
+  }
+}
+

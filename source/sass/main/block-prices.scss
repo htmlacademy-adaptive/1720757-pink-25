@@ -1,6 +1,10 @@
 .block-prices {
-  margin-left: 56px;
+  box-sizing: border-box;
+  height: 94px;
   text-align: center;
+  background: $filterbg;
+  border: 2px solid $section-item-color;
+  position: relative;
 
   b {
     font-family: $font-name;
@@ -20,5 +24,24 @@
     line-height: 30px;
     text-transform: uppercase;
     color: $white;
+    margin: 0;
+  }
+}
+
+.block-prices__form {
+  width: 74px;
+  background-color: $form-color;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+@media (min-width: $tablet-version) {
+  .block-prices {
+    height: 75px;
+    box-sizing: border-box;
+    text-align: center;
+    background: $filterbg;
+    border: 2px solid $section-item-color;
+    position: relative;
   }
 }

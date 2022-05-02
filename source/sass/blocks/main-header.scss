@@ -1,3 +1,45 @@
 .main-header {
   background-color: $header-color;
+  display: flex;
+  justify-content: space-between;
+
+  svg:nth-child(2) {
+    display: none;
+  }
+
+  svg:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-version) {
+  .main-header {
+    svg:nth-child(2) {
+      display: initial;
+    }
+
+    svg:nth-child(1) {
+      display: none;
+    }
+
+    svg:nth-child(3) {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .main-header {
+    svg:nth-child(3) {
+      display: initial;
+    }
+
+    svg:nth-child(1) {
+      display: none;
+    }
+
+    svg:nth-child(2) {
+      display: none;
+    }
+  }
 }

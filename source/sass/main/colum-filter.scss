@@ -1,0 +1,36 @@
+.colum-filter {
+  display: none;
+  box-sizing: border-box;
+
+  p {
+    margin: 0;
+    border: 2px solid $section-item-color;
+    height: 45px;
+    width: 153px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: $tablet-version) {
+  .colum-filter {
+    display: initial;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .colum-filter {
+    p {
+      margin: 0;
+      border: 2px solid $section-item-color;
+      height: 59px;
+      width: 234px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

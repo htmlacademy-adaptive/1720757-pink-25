@@ -1,5 +1,7 @@
 .block-developer {
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   p {
     font-family: $font-name;

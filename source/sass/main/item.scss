@@ -1,17 +1,47 @@
+.item {
+  text-align: center;
+}
+
 .item__title {
   font-family: $font-name;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  display: flex;
+  align-items: center;
   color: $title-color;
 }
 
 .item__text {
+  margin: 0;
   font-family: $font-name;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: $avtor-text-color;
+  margin-top: 24px;
+  margin-bottom: 43px;
+  text-align: left;
+}
+
+@media (min-width: $tablet-version) {
+  .item {
+    min-height: 96px;
+    width: 310px;
+  }
+
+  .item__text {
+    display: flex;
+    align-items: center;
+    min-height: 58px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .item__title {
+    display: flex;
+    align-items: center;
+  }
 }

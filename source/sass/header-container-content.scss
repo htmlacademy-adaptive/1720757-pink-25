@@ -1,0 +1,8 @@
+@media (min-width: $tablet-version) {
+  .header-container-content {
+    padding: 102px 0 112px 21px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: min-content 278px;
+  }
+}

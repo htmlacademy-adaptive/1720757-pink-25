@@ -1,0 +1,36 @@
+@media (min-width: $tablet-version) {
+  .item-block {
+    width: 310px;
+    min-height: 358px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .item-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .item__title {
+    max-width: 244px;
+    margin-bottom: 35px;
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: $title-color;
+  }
+
+  .item__text {
+    margin: 0 68px 0 0;
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: $avtor-text-color;
+  }
+}

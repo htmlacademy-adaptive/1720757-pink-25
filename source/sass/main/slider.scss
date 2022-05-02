@@ -1,0 +1,13 @@
+.slider {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (min-width: $tablet-version) {
+  .slider {
+    display: none;
+  }
+}

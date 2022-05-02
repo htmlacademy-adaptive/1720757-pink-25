@@ -1,5 +1,5 @@
 .sentence-block {
-  background-color: $form-color;
+  background-color: $white;
   padding: 46px 20px 70px;
 }
 
@@ -13,4 +13,32 @@
   align-items: center;
   text-align: center;
   color: $avtor-text-color;
+}
+
+@media (min-width: $tablet-version) {
+  .sentence-block__title {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $avtor-text-color;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .sentence-block__title {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $avtor-text-color;
+  }
 }

@@ -1,21 +1,109 @@
+.block-filter {
+  box-sizing: border-box;
+  min-width: 276px;
+}
+
+.block-filter-text {
+  height: 59px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 2px solid  $section-item-color;
+  padding: 19px 17px 20px;
+
+  p {
+    margin: 0;
+  }
+}
+
 .block-filter__header {
   background: $filterbg;
   padding: 17px 95px 35px 15px;
-  border: 2px solid $filterbg;
-  border-radius: 1px 0 0 0;
   display: flex;
+  position: relative;
 }
 
-.block-filter__column {
+.block-filter__tilted {
+  position: absolute;
+  background: $form-color;
+  transform: rotate(-45deg);
+  width: 74px;
+  top: 0;
+  left: 0;
+
   p {
+    text-align: center;
+    margin: 0;
     font-family: $font-name;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
-    text-transform: uppercase;
-    color: #283645;
-    margin: 0;
-    background-color: #ffffff;
+    color: $white;
+  }
+}
+
+@media (min-width: $tablet-version) {
+  .block-filter {
+    box-sizing: border-box;
+    min-width: 152px;
+  }
+
+  .block-filter__header:nth-child(1) {
+    background: $filterbg;
+    padding: 0;
+    grid-column-start: 2;
+  }
+
+  .block-filter__header:nth-child(2) {
+    background: $filterbg;
+    padding: 0;
+    grid-column-start: 3;
+  }
+
+  .block-filter__header:nth-child(3) {
+    background: $filterbg;
+    padding: 0;
+    grid-column-start: 4;
+  }
+
+  .block-filter__tilted {
+    position: absolute;
+    background: $form-color;
+    transform: rotate(-45deg);
+    width: 74px;
+    top: 0;
+    left: 0;
+
+    p {
+      text-align: center;
+      margin: 0;
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      color: $white;
+    }
+  }
+
+  .block-filter-text {
+    box-sizing: border-box;
+    min-width: 152px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .block-filter {
+    box-sizing: border-box;
+    min-width: 233px;
   }
 }

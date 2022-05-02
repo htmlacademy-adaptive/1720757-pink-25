@@ -1,3 +1,10 @@
 .block-color-filter {
   background-color: $section-item-color;
+  width: 276px;
+
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
 }

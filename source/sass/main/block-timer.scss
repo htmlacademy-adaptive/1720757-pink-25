@@ -1,0 +1,84 @@
+.block-timer {
+  display: none;
+}
+
+@media (min-width: $tablet-version) {
+  .block-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      margin-right: 72px;
+    }
+  }
+
+  .block-timer__title {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: $title-color;
+    margin-bottom: 24px;
+  }
+
+  .block-timer__text {
+    margin: 0;
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: $avtor-text-color;
+    margin-bottom: 24px;
+  }
+
+  .block-timer__discover {
+    color: $bright-text-color;
+    display: flex;
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-decoration-line: underline;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .block-timer {
+    background-color: $section-item-color;
+    padding: 17px 166px 67px 131px;
+  }
+
+  .block-timer__title {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    align-items: center;
+    color: $title-color;
+    margin-bottom: 37px;
+  }
+
+  .block-timer__text {
+    max-width: 534px;
+    margin: 0;
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: $avtor-text-color;
+    display: flex;
+    align-items: center;
+    margin-bottom: 47px;
+  }
+}

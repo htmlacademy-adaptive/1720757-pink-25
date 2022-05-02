@@ -1,0 +1,113 @@
+.comment-block {
+  svg {
+    display: none;
+  }
+}
+
+.comment-block__avtor {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: $title-color;
+  margin-bottom: 31px;
+
+  span {
+    display: none;
+  }
+}
+
+.comment-block__avtor-text {
+  margin: 0;
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+@media (min-width: $tablet-version) {
+  .comment-block {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      display: none;
+    }
+  }
+
+  .comment-block__avtor {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: $title-color;
+    text-align: center;
+    order: 2;
+
+    span {
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      display: block;
+      margin-bottom: 49px;
+    }
+  }
+
+  .comment-block__avtor-text {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: $avtor-text-color;
+    margin-bottom: 51px;
+    order: 1;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .comment-block {
+    svg {
+      display: initial;
+      margin-bottom: 58px;
+    }
+  }
+
+  .comment-block__avtor-text {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: $avtor-text-color;
+    margin-bottom: 50px;
+  }
+
+  .comment-block__avtor {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $title-color;
+    text-align: center;
+    order: 2;
+
+    span {
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      display: block;
+      margin-bottom: 49px;
+    }
+  }
+}
