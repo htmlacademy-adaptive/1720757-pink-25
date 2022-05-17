@@ -2,3 +2,8 @@
   background-image: url("../img/mobile/catalog-img/back-mobile.jpg");
 }
 
+@media (min-width: $tablet-version) {
+  .catalog-header-block {
+    background-image: url("");
+  }
+}

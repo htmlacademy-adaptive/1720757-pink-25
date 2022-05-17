@@ -5,6 +5,7 @@
 }
 
 .comment-block__avtor {
+  display: inline-block;
   font-family: $font-name;
   font-style: normal;
   font-weight: 700;
@@ -74,6 +75,8 @@
 
 @media (min-width: $decopant-version) {
   .comment-block {
+    padding: 72px 130px 41px;
+
     svg {
       display: initial;
       margin-bottom: 58px;

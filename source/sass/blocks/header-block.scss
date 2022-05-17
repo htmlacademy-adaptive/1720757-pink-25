@@ -2,16 +2,17 @@
   background-image: url("../img/mobile/mobile-background/back-mobile.jpg");
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 733px;
+  min-height: 462px;
 }
 
 @media (min-width: $tablet-version) {
   .header-block {
     background-image: url("../img/background/back-tablet.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 729px;
-    position: relative;
+    min-height: 729px;
+    box-sizing: border-box;
   }
 }
 
@@ -19,8 +20,8 @@
   .header-block {
     background-image: url("../img/background/back-desktop.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    min-height: 462px;
-    position: relative;
+    min-height: 853px;
   }
 }
