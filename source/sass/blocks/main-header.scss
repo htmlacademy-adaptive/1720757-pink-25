@@ -1,7 +1,10 @@
 .main-header {
   background-color: $header-color;
+  height: 66px;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
+  padding: 21px 18px 20px;
 
   svg:nth-child(2) {
     display: none;
@@ -14,6 +17,10 @@
 
 @media (min-width: $tablet-version) {
   .main-header {
+    display: flex;
+    height: 110px;
+    box-sizing: border-box;
+
     svg:nth-child(2) {
       display: initial;
     }
@@ -28,8 +35,15 @@
   }
 }
 
+
 @media (min-width: $decopant-version) {
   .main-header {
+    padding: 27px 0 43px 130px;
+
+    svg {
+      margin-right: 173px;
+    }
+
     svg:nth-child(3) {
       display: initial;
     }

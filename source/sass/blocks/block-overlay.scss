@@ -1,18 +1,52 @@
 .block-overlay {
-  position: relative;
-  box-sizing: border-box;
-  height: 286px;
+  height: 275px;
+
+  img:nth-child(2) {
+    display: none;
+  }
+
+  img:nth-child(3) {
+    display: none;
+  }
 }
 
-.block-overlay__image1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+@media (min-width: $tablet-version) {
+  .block-overlay {
+    position: absolute;
+    top: 74px;
+    z-index: 1;
+
+    img:nth-child(1) {
+      display: none;
+    }
+
+    img:nth-child(2) {
+      display: initial;
+    }
+
+    img:nth-child(3) {
+      display: none;
+    }
+  }
 }
 
-.block-overlay__image2 {
-  position: absolute;
-  left: 105px;
-  bottom: 50px;
-  z-index: 1;
+@media (min-width: $decopant-version) {
+  .block-overlay {
+    position: absolute;
+    top: 98px;
+    left: 144px;
+    z-index: 1;
+
+    img:nth-child(1) {
+      display: none;
+    }
+
+    img:nth-child(2) {
+      display: none;
+    }
+
+    img:nth-child(3) {
+      display: initial;
+    }
+  }
 }

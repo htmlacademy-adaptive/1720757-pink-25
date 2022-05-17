@@ -3,6 +3,7 @@
   justify-content: center;
   position: relative;
   margin: 0 auto;
+  background-color: $white;
 }
 
 @media (min-width: $tablet-version) {
@@ -12,5 +13,12 @@
     justify-content: center;
     position: relative;
     width: 616px;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .form-table {
+    background-color: $white;
+    width: 940px;
   }
 }

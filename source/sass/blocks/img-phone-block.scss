@@ -10,6 +10,8 @@
 
 @media (min-width: $tablet-version) {
   .img-phone-block {
+    position: relative;
+
     img:nth-child(1) {
       display: none;
     }

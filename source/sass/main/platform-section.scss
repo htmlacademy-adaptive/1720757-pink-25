@@ -14,6 +14,14 @@
   background-color: $transparent;
   cursor: pointer;
 
+  &:hover {
+    background-color: $white;
+
+    span {
+      color: $bright-text-color;
+    }
+  }
+
   span {
     font-family: $font-name;
     font-style: normal;
@@ -35,7 +43,16 @@
 }
 
 @media (min-width: $tablet-version) {
+  .platform-section__download {
+    margin-bottom: 46px;
+  }
+
   .platform-section {
+    margin-left: 20px;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    z-index: 2;
     background-color: $transparent;
   }
 
@@ -48,5 +65,16 @@
     color: $white;
     box-sizing: border-box;
     width: 300px;
+  }
+}
+
+
+@media (min-width: $decopant-version) {
+  .platform-section__download {
+    margin-bottom: 51px;
+  }
+
+  .platform-section {
+    margin-left: 130px;
   }
 }

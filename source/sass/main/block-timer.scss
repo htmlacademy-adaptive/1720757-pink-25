@@ -1,15 +1,17 @@
 .block-timer {
   display: none;
+  position: relative;
 }
 
 @media (min-width: $tablet-version) {
   .block-timer {
+    background-color: $white;
     display: flex;
     justify-content: center;
     align-items: center;
 
     svg {
-      margin-right: 72px;
+      padding: 54px 72px 109px 20px;
     }
   }
 
@@ -55,6 +57,11 @@
   .block-timer {
     background-color: $section-item-color;
     padding: 17px 166px 67px 131px;
+
+    svg {
+      width: 298px;
+      height: 345px;
+    }
   }
 
   .block-timer__title {

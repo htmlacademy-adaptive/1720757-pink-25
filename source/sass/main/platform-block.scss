@@ -1,11 +1,24 @@
 .platform-block {
   margin: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-left: 38px;
+  margin-bottom: 28px;
 }
 
 .platform-block__icon {
   margin-right: 35px;
-  margin-bottom: 28px;
+}
+
+@media (min-width: $tablet-version) {
+  .platform-block {
+    text-align: left;
+    margin-bottom: 38px;
+  }
+}
+
+@media (min-width: $decopant-version) {
+  .platform-block {
+    margin-bottom: 58px;
+  }
 }

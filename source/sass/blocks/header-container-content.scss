@@ -1,11 +1,11 @@
-@media (min-width: $tablet-version) {
-  .header-container-content {
-    display: grid;
-    grid-template-columns: 300px;
-  }
+.header-container-content {
+  display: flex;
+  flex-direction: column;
 }
 
-.block-overlay {
-  flex-direction: column;
-  order: -1;
+@media (min-width: $tablet-version) {
+  .header-container-content {
+    display: block;
+    position: relative;
+  }
 }
